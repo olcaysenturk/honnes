@@ -1,0 +1,262 @@
+.career-box {
+  .slide {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    @include media(web){
+      display: flex;
+
+    }
+    .item {
+      text-align: center;
+      .img-box {
+        width: 100%;
+        display: block;
+        vertical-align: top;
+        img {
+          width: 160px;
+          height: 160px;
+          border-radius: 100%;
+          overflow: hidden;
+        }
+      }
+      .text-box {
+        display: block;
+        width: 100%;
+        font-family: $font;
+        padding: 0 50px;
+        text-align: justify;
+        margin-top: 30px;
+        .title {
+          font-size: 25px;
+          text-align: center;
+        }
+        .title-bottom {
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 35px;
+          text-align: center;
+        }
+        .text {
+          font-size: 15px;
+          line-height: 18px;
+          position: relative;
+          margin-bottom: 20px;
+          &:before {
+            content: "";
+            width: 17px;
+            height: 12px;
+            position: absolute;
+            left: -25px;
+            top: -15px;
+            background-image: url("../../images/t1.png");
+          }
+          &:after {
+            content: "";
+            width: 17px;
+            height: 12px;
+            position: absolute;
+            right: 0px;
+            bottom: -15px;
+            background-image: url("../../images/t2.png");
+          }
+        }
+      }
+    }
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+      display: none;
+    }
+    .alice-carousel__dots {
+      &-item {
+        border-radius: 0;
+        background: $color-white;
+        border: 1px solid $color-blue-dark;
+        width: 11px;
+        height: 11px;
+      }
+      .__active {
+        background: $color-blue-dark;
+      }
+    }
+  }
+  .form-area {
+    background: $color-blue;
+    .form-box {
+      display: block;
+      margin: 0 auto;
+      width: 650px;
+      @include media(mobil){
+        width: 100%;
+      }
+      .title {
+        font: 600 42px/42px $font;
+        color: $color-white !important;
+        padding: 40px 0;
+      }
+      .form-item-box {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        @include media(mobil){
+          width: 100%;
+        }
+        &:last-child {
+          margin-left: 65px;
+          @include media(mobil){
+            margin-left: 0;
+          }
+        }
+        .form-item {
+          margin-bottom: 15px;
+          font: 400 20px/20px $font;
+          input,
+          textarea {
+            width: 100%;
+            background: transparent;
+            border: 1px solid $color-white;
+            height: 38px;
+            padding: 0 10px;
+            color: $color-white;
+            outline: none;
+            @include placeholder {
+              color: $color-white;
+            }
+            
+
+          }
+          textarea {
+            height: 88px;
+            padding: 10px;
+          }
+          .button {
+            margin-bottom: 30px;
+            border: 1px solid $color-white;
+          }
+        }
+      }
+    }
+    .button-area {
+      background: rgba(0,12,72,.3);
+      padding-bottom: 25px;
+      @include media(mobil){
+        text-align: center;
+      }
+    }
+  }
+}
+.career-video{
+  padding-bottom: 90px;
+  padding-top: 60px;
+  background-color: #f4f4f4;
+  margin-bottom: 60px;
+  .row{
+    display: flex !important;
+  }
+  
+  .item{
+    margin-top:30px;
+    position: relative;
+    transition: .5s ease;
+    text-decoration: none;
+    .img-box{
+      position: relative;
+      &:hover{
+        &::before{
+          opacity: .5;
+        }
+        &::after{
+          opacity: 0;
+        }
+        
+      }
+      .play-ico{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url("/static/cdn/play.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        left: 0;
+        right: 0;
+        top: 0px;
+        bottom: 0;
+        margin: auto;
+        opacity: 1;
+        z-index: 3;
+        transition: .5s ease;
+        text-decoration: none;
+        cursor: pointer;
+        z-index: 4;
+      }
+      &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0;
+        background-color: $color-blue;
+        opacity: 0;
+        z-index: 2;
+        transition: .5s ease;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0;
+        background-color: $color-black;
+        opacity: .3;
+        z-index: 2;
+        transition: .5s ease;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    h3{
+      font: 400 22px/22px $font;
+      color: $color-blue;
+      margin-top: 15px;
+      cursor: pointer;
+      b{
+        font-size: 14px;
+        color: $color-black;
+      }
+    }
+    img{
+      display: block;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+h2.col-centered{
+  color: $color-blue;
+  text-align: center;
+  margin-bottom: 30px;
+  span{
+    color: $color-black;
+    display: block;
+    margin-top: 15px;
+    @include media(mobil){
+      font: 400 16px/16px $font;
+    }
+    @include media(tablet){
+      font: 400 18px/18px $font;
+    }
+  }
+  @include media(mobil){
+    font: 600 26px/26px $font;
+  }
+  @include media(tablet){
+    font: 600 36px/36px $font;
+  }
+}

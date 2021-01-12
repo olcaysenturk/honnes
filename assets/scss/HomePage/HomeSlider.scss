@@ -1,0 +1,132 @@
+.homeslider {
+  height: 250px;
+  @include media(tablet){
+    height: calc(100vh - 110px);
+  }
+  @include media(mobil) {
+    margin-top: 60px;
+  }
+  .alice-carousel__wrapper {
+    height: 350px;
+    @include media(tablet) {
+      height: calc(100vh - 110px);
+    }
+    .sliderItem {
+      width: 100%;
+      height: 100vh;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      .img {
+        width: 100%;
+      }
+    }
+  }
+  .alice-carousel__dots {
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    .alice-carousel__dots-item {
+      border-radius: 0;
+      width: 10px;
+      height: 10px;
+      border: 1px solid $color-blue;
+      background-color: transparent;
+      &.__active {
+        background-color: $color-blue;
+      }
+    }
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    display: none;
+  }
+  .slider-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sliderContent {
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 75px);
+    text-align: center;
+    @include media(tablet) {
+      top: calc(50% - 115px);
+    }
+    .title {
+      color: $color-white;
+      font-family: $font;
+      font-weight: 600;
+      font-size: 40px;
+      text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+      @include media(tablet) {
+        font-size: 94px;
+      }
+    }
+    .text {
+      color: $color-blue;
+      font-family: $font;
+      font-weight: 400;
+      font-size: 20px;
+      margin-top: 20px;
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+      @include media(tablet) {
+        font-size: 43px;
+      }
+      strong {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .fullscreen-bg {
+    width: 100vw;
+    height: 250px;
+    @include media(tablet){
+      height: calc(100vh - 110px);
+    }
+    position: absolute;
+    video {
+      object-fit: cover;
+      width: 100vw;
+      height: 250px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @include media(tablet){
+        height: calc(100vh - 110px);
+      }
+    }
+    .video-react-control-bar{
+      display: none;
+    }
+  }
+}
+.down-arrow{
+    position: absolute;
+    width: 40px;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    margin: 0 auto;
+    z-index: 3;
+    animation-name: down;
+    animation-duration: 2s; 
+    opacity: 0;
+    animation-iteration-count: infinite;
+    @include media(tablet){
+      opacity: 1;
+    }
+}
+@keyframes down {
+  0% {bottom: 40px;}
+  50% {bottom: 70px;}
+  100% {bottom: 40px;}
+}
+.media-controls{
+  opacity: 0;
+}

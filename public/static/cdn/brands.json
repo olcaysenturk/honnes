@@ -1,0 +1,132 @@
+{
+  "brands": [
+  {
+    "id": 1,
+    "name": "ALPHETA",
+    "path": "/static/cdn/images/brands/1.png",
+    "banner": "/static/cdn/images/banner/1.png",
+    "url": "alpheta",
+    "info": "Hastane ve sağlık merkezleri kanalı için sunulan, üstün kalite standartları ile üretilmiş yapışkan flasterler, bandajlar ve örtüler",
+    "items": [
+      {
+        "id": 1,
+        "code": "3M-1001",
+        "name": "ALPHETA",
+        "area": "AMELİYATHANE",
+        "class": "İZOLASYON TORBASI",
+        "type": "İZOLASYON TORBASI",
+        "bottomBrand": "STERI-DRAPE İZOLASYON TORBASI",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "ALPHETA"
+      },
+      {
+        "id": 2,
+        "code": "3M-1002",
+        "name": "STERİ DREP 35cm×35cm",
+        "area": "AMELİYATHANE",
+        "class": "İNSİZYON ÖRTÜSÜ",
+        "type": "İNSİZYON ÖRTÜSÜ",
+        "bottomBrand": "STERI-DRAPE İNSİZYON ÖRTÜSÜ",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "ALPHETA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BANDUFF",
+    "path": "/static/cdn/images/brands/2.png",
+    "banner": "/static/cdn/images/banner/2.png",
+    "url": "banduff",
+    "info": "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+    "items": [
+      {
+        "id": 1,
+        "code": "3M-1003",
+        "name": "BANDUFF",
+        "area": "AMELİYATHANE",
+        "class": "İZOLASYON TORBASI",
+        "type": "İZOLASYON TORBASI",
+        "bottomBrand": "STERI-DRAPE İZOLASYON TORBASI",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "BANDUFF"
+      },
+      {
+        "id": 2,
+        "code": "3M-1004",
+        "name": "BANDUFF",
+        "area": "AMELİYATHANE",
+        "class": "İNSİZYON ÖRTÜSÜ",
+        "type": "İNSİZYON ÖRTÜSÜ",
+        "bottomBrand": "STERI-DRAPE İNSİZYON ÖRTÜSÜ",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "BANDUFF"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "BGOOD",
+    "path": "/static/cdn/images/brands/3.png",
+    "banner": "/static/cdn/images/banner/3.png",
+    "url": "bgood",
+    "info": "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+    "items": [
+      {
+        "id": 1,
+        "code": "3M-1005",
+        "name": "3M İZOLASYON TORBASI 49CMX49CM",
+        "area": "AMELİYATHANE",
+        "class": "İZOLASYON TORBASI",
+        "type": "İZOLASYON TORBASI",
+        "bottomBrand": "STERI-DRAPE İZOLASYON TORBASI",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "3M"
+      },
+      {
+        "id": 2,
+        "code": "3M-1006",
+        "name": "STERİ DREP 35cm×35cm",
+        "area": "AMELİYATHANE",
+        "class": "İNSİZYON ÖRTÜSÜ",
+        "type": "İNSİZYON ÖRTÜSÜ",
+        "bottomBrand": "STERI-DRAPE İNSİZYON ÖRTÜSÜ",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "3M"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "CLIVEX",
+    "path": "/static/cdn/images/brands/4.png",
+    "banner": "/static/cdn/images/banner/4.png",
+    "url": "clivex",
+    "info": "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+    "items": [
+      {
+        "id": 1,
+        "code": "3M-1007",
+        "name": "3M İZOLASYON TORBASI 49CMX49CM",
+        "area": "AMELİYATHANE",
+        "class": "İZOLASYON TORBASI",
+        "type": "İZOLASYON TORBASI",
+        "bottomBrand": "STERI-DRAPE İZOLASYON TORBASI",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "CLIVEX"
+      },
+      {
+        "id": 2,
+        "code": "3M-1008",
+        "name": "STERİ DREP 35cm×35cm",
+        "area": "AMELİYATHANE",
+        "class": "İNSİZYON ÖRTÜSÜ",
+        "type": "İNSİZYON ÖRTÜSÜ",
+        "bottomBrand": "STERI-DRAPE İNSİZYON ÖRTÜSÜ",
+        "urlPath": "/static/cdn/images/products/no-image.png",
+        "brand": "CLIVEX"
+      }
+    ]
+  }
+]
+}

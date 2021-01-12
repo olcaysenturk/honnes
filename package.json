@@ -1,0 +1,42 @@
+{
+  "name": "capanext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
+    "google-maps-react": "^2.0.6",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.0",
+    "next-images": "^1.6.2",
+    "next-link": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-alice-carousel": "^1.19.3",
+    "react-dom": "^16.14.0",
+    "react-expandable-grid": "^1.0.3",
+    "react-hamburger-menu": "^1.2.1",
+    "react-image-magnify": "^2.7.4",
+    "react-media-player": "^0.7.9",
+    "react-pagination-list": "^1.0.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-tabs": "^3.1.1",
+    "reactstrap": "^8.7.1",
+    "server.js": "^1.0.0"
+  }
+}

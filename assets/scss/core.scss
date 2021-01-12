@@ -1,0 +1,24 @@
+@import './Reset.scss';
+@import './Variables.scss';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+
+@import './Header.scss';
+@import './Footer.scss';
+@import './Fonts.scss';
+@import './animate.scss';
+
+@import './HomePage/HomeSlider.scss';
+@import './HomePage/WhyOur.scss';
+@import './HomePage/Brands.scss';
+@import './HomePage/WeInPress.scss';
+
+@import './AboutUs/BackgroundTitle.scss';
+@import './AboutUs/AboutUsPage.scss';
+@import './Career/Career.scss';
+
+@import './Brands/brands.scss';
+@import './Contact/contactUs.scss';
+
+@import './NewsOur/NewsOur.scss';
+@import './SellingPoints/sellingPoints.scss'

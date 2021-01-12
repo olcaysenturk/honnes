@@ -1,0 +1,22 @@
+{
+    "news": [
+      {
+        "id"   : "1",
+        "date" : "01.07.2020",
+        "title": "Alpheta Kinesio Bantları ile Ağrılarıyla Mücadeleye Tam Destek",
+        "logo": "/static/cdn/images/news/news1.png",
+        "image": "/static/cdn/images/news/news1.png",
+        "url"  : "alpheta-kinesio-bantlari",
+        "text" : "<p>Spor dünyasında giderek yaygınlaşan Kinesio bantları, sporcuların asla vazgeçemeyeceği ürünler arasındaki yerini almaya aday.</p><p>Bel-boyun ve sırt ağrıları gibi çok sık rastlanan sağlık sorunlarının yanında, ortopedik ve nörolojik problemler için de bir tedavi seçeneği sunan Kinesio’lar, kaslara etki ederek sporcuların performansını arttırmaya ve sakat bölgelerde daha çabuk iyileşmeye destek sağlıyor.</p><p>Fizik tedavi ve rehabilitasyon uzmanları tarafından önerilen Kinesio bantları;</p><p><ul><li>Fıtıklar, kireçlenmeler, baş-çene ağrıları,</li><li>Kalça – diz, ayak – ayak bileği ağrıları, omuz, dirsek, el–el bileği ve parmakları etkileyen problemlerde,</li><li>Postür ve duruş bozuklukları nedeniyle oluşan sağlık sorunlarında,</li><li>Müzisyenlerde ve sporcularda performans öncesi–sırasında ve sonrasında oluşan rahatsızlıklarda,</li><li>Kas-kuvvet yetersizlikleri ve hareket algısı bozuklukları gösteren nörolojik problemlerde güvenli bir şekilde kullanılabilirken;</li></ul><p>İlaç içermeyen Kinesio bantların hamilelikte de kullanımı son derece rahat ve güvenlidir. Bu dönemde ortaya çıkan ödem, bel – boyun ağrıları ve eklem problemlerinde güvenle kullanılabilir.</p><p>Alanında uzman kişilerce uygulanması önerilmektedir.</p><p>Alpheta bir Honnes markasıdır.</p>"
+      },
+      {
+        "id"   : "2",
+        "date" : "01.07.2020",
+        "title": "Honnes Expomed 2017’de Sağlık Personelleri ile Buluştu",
+        "logo": "/static/cdn/images/news/news2.png",
+        "image": "/static/cdn/images/news/news2.png",
+        "url"  : "honnes-expomed-2017",
+        "text" : "<p>Sağlık sektöründe üretim, lojistik ve satış-pazarlama alanlarında 20 yılı aşkın deneyimin verdiği güç ve güven ile ülkemizin yeni nesil yapışkanlı yara bakım ürünleri üreticisi Honnes, bünyesinde faaliyet gösteren Alpheta, B-good ve Clivex markalarıyla, Expomed 2017 Fuarı’nda ki yerini aldı. Avrasya Bölgesi’nin ve Türkiye’nin medikal alandaki en önemli buluşma platformu olan fuarda; yenilenen özel formülüyle, cildi tahriş etmeden, güçlü yapışma sağlayan Alpheta Plus flasterin de lansmanı gerçekleştirildi.</p><p>30 Mart -2 Nisan 2017 tarihleri arasında gerçekleşen Expomed 2017’de 7. Salon 724 numaralı stantta Alpheta, B-good ve Clivex markalarının ürünleri ile katılım sağlayan Honnes, 3 gün boyunca Türkiye’den ve yurtdışından birçok ziyaretçiyi ağırladı. Türkiye’nin tüm bölgelerinden Sağlık Yöneticileri, Sağlık Çalışanları, Medikal Firmalar, Eczacılar, İlgili Vakıf ve Denekler, Öğrencilerin yanı sıra organizasyona nihai tüketiciler de yoğun ilgi gösterdi. Yurtdışından katılım sağlayan dış ticaret yapan firmalar ile de yeni iş bağlantılarının temelleri atıldı.</p>"
+      }
+    ]
+  }
